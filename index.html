@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/home.css">
+</head>
+<body>
+    
+
+    <header>
+
+        <div class="logo">
+            <img src="img/Logo(1).png" alt="">
+            <!-- <img src="./Logo(1).png" alt=""> -->
+            <h3>Cooks Delight</h3>
+        </div>
+        <div class="nav">
+
+
+            <div class="button-container">
+                <button class="underline-button black">HOME</button>
+                <button class="underline-button gray">RESIPES API</button>
+            </div>
+           
+           
+
+               
+
+        
+        
+           
+        </div>
+        <div class="search">
+            <div class="search_input">
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+
+            <div class="button">
+                <button>subscribe</button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <style>
+
+.button-container{
+    
+    margin-top: 30px;
+   
+}
+
+        body { font-family: Arial; background: #F0EBE1; margin: 0; }
+        .hero { text-align: center; margin: 20px 0; }
+        .container { 
+            max-width:2000px; 
+            width: 1515px;
+            margin: 0 auto; 
+            padding: 20px;  
+            background:#C4E5FC; 
+            border-radius: 32px; 
+            box-shadow: 0 4px 10px rgba(177, 175, 175, 0.151); 
+            display: flex; 
+            gap: 60px;
+           
+        }
+        .left { flex: 1; }
+        .right { flex: 1; }
+        .food-item { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
+        .logo { width: 50px; margin-top: 20px;}
+        hr { border: 1px solid #d6d6d6; margin: 0; }
+        .box { margin-bottom: 20px; }
+
+
+    
+        .recipes-top {
+            margin-top: 130px; 
+        }
+        h1 {
+            margin-top: 10px; 
+            margin-bottom: 10px; 
+
+        }
+        .box {
+            margin-top: 10px; 
+        }
+
+
+       .yeas{
+        margin-top: 20px
+       }
+
+
+       .food-item{
+        margin-top: 10px;
+        
+font-family: "Montserrat";
+font-size: 18px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0.02em;
+text-align: left;
+
+
+        img{
+            width: 30px;
+        }
+       
+
+
+       hr { 
+            border: 1px solid #ccc; 
+            margin: 5px 0; 
+            width: 90%; 
+            margin-left: auto; 
+            margin-right: auto; 
+       }
+    }
+
+    </style> 
+
+
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Unleash Culinary  Excellence</h1>
+        <p>
+            Explore a world of flavors, discover handcrafted recipes, and let the aroma of our passion for cooking fill your kitchen.
+        </p>
+        <button class="hero-btn">
+            explore recipes
+        </button>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="menu">
+    <div class="menu-text ">
+        <button class="menu-btn1">explore</button>
+        <h3>
+            Our diverse <br>Palette   
+        </h3>
+        <p>
+            If you are a breakfast enthusiast, a connoisseur of savory delights, or on the lookout for irresistible desserts, our curated selection has something to satisfy every palate.
+        </p>
+        <button class="menu-btn2" >see more</button>
+    </div>
+    <div id="menu" class="menu-items">
+    
+    </div>
+</section>
+
+<style>
+    .menu-text {
+        position: relative; /* Относительное позиционирование для контейнера */
+
+
+        .menu-btn1,
+    .menu-btn2,
+    h3,
+    p {
+        position: relative; /* Относительное позиционирование для элементов */
+        top: 160px; /* Сдвигаем элементы вниз */
+    }
+    }
+    </style>
+
+<!-- <div class="container">
+   <div class="left">
+        <div class="recipes-top">
+            <div class="box2">
+            <button class="recipes-btn">explore</button>
+            <h1>Our diverse <br> Palette</h1>
+            <div class="box">If you are a breakfast enthusiast, a connoisseur of savory delights, or <br> on the lookout for irresistible desserts, our curated selection has <br> something to satisfy every palate.</div>
+            <button class="yeas">see more</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+     <div class="right">
+       
+        <div class="food-item">
+            <img src="../img/break.png" alt="Логотип 1" class="logo">
+            <span>breakfest</span>
+        </div>
+        <hr>
+        <div class="food-item">
+            <img src="../img/lunch.png" alt="Логотип 2" class="logo">
+            <span>lunch</span>
+        </div>
+        <hr>
+        <div class="food-item">
+            <img src="../img/dinner.png" alt="Логотип 3" class="logo">
+            <span>dinner</span>
+        </div>
+        <hr>
+        <div class="food-item">
+            <img src="../img/dessert.png" alt="Логотип 4" class="logo">
+            <span>dessert</span>
+        </div>
+        <hr>
+        <div class="food-item">
+            <img src="../img/quick.png" alt="Логотип 5" class="logo">
+            <span>quick bite!</span>
+        </div>
+        <hr>
+    </div>
+</div>  -->
+
+       
+        
+
+     <main>
+        <section class="recipes">
+            <div class="recipes-top">
+             <button class="recipes-btn">recipes</button>
+            <h3>
+                Embark on a <br> journey
+            </h3>
+            <p>
+                With our diverse collection of recipes we have something to <br> satisfy every palate.
+            </p>
+        </div>
+            <div class="recipes-buttons"></div>
+
+            <div class="recipes-cards">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../img/logo1.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h4>Savory Herb-Infused Chicken</h4>
+                        <p>
+                            Indulge in the rich and savory symphony of flavors with our Savory Herb-Infused Chicken
+                        </p>
+                        <div>
+                            <p>40 Min - easy prep - 3 serves</p>
+                            <button >view recipe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+
+
+
+   
+
+    <script src="js/home.js"></script>
+</body>
+</html>

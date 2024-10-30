@@ -1,0 +1,685 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); 
+@import './style.css'; 
+ 
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    list-style: none; 
+    border: none; 
+} 
+ 
+body { 
+    background: #F0EBE1; 
+
+} 
+ 
+header { 
+    margin: 16px 0; 
+   
+    padding: 8px 24px;
+    display: flex; 
+    align-self: center; 
+    justify-content: space-between; 
+    border: 1px solid #2625223D; 
+    border-radius: 32px; 
+} 
+ 
+.container { 
+    width: 1312px; 
+    margin: auto; 
+ 
+} 
+ 
+.logo { 
+    display: flex; 
+    width: 100px; 
+    gap: 8px; 
+   margin-bottom: 20px;
+ 
+    h3 { 
+        font-size: 17px; 
+    } 
+} 
+ 
+.nav { 
+    display: flex; 
+    gap: 24px; 
+}
+ 
+    a { 
+        padding: 8px; 
+        
+
+   
+ 
+    a.active { 
+        color: rgba(197, 165, 165, 0); 
+        font-weight: bold; 
+    } 
+} 
+ 
+
+
+
+.container{
+width: Hug (1,309px)px;
+height: Hug (504px)px;
+top: 695px;
+left: 64px;
+padding: 40px 0px 0px 0px;
+gap: 238px;
+border-radius: 32px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.container{
+    padding-left:80px ;
+    padding-right: 90px;
+    background-color: aqua;
+  
+    
+}
+
+
+.recipes-top{
+    recipes-btn{
+        background-color: #EE6352;
+    }
+}
+
+
+/*
+dz
+*/
+
+
+
+.recipes-btn{
+    width: Hug (76px)px;
+    height: Hug (24px)px;
+    padding: 4px 8px 4px 8px;
+    gap: 10px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    background: #EE6352;
+    border-radius: 18px;
+    text-transform: uppercase; 
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    
+
+   
+}
+
+
+h1{
+        
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-transform: uppercase; 
+      
+        }
+
+.food-item {
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    span{    
+    margin-left: 500px;
+    text-transform: uppercase; 
+  }
+}
+
+
+.box{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 22.4px;
+letter-spacing: 0.01em;
+text-align: left;
+
+
+
+
+
+}
+
+
+.yeas {
+
+   background: #C4E5FC;
+   border: 1px solid black;
+   color: #262522;
+   font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 14px;
+text-align: left;
+
+
+
+
+}
+
+
+.box2 {
+    width: Fixed (494px)px;
+    height: Hug (276px)px;
+    gap: 40px;
+    opacity: 0px;
+
+    }
+
+
+
+
+/*
+dz
+*/
+
+
+ 
+.search { 
+    display: flex; 
+    align-items: center; 
+    gap: 16px; 
+} 
+ 
+.search_input { 
+    button { 
+        width: 37px; 
+        height: 37px; 
+        padding: 0; 
+        border-radius: 50%; 
+        background-color: #E0DCD2; 
+        cursor: pointer; 
+    } 
+} 
+ 
+ 
+button { 
+    background-color: #262522; 
+    color: white; 
+    padding: 12px 24px; 
+    border-radius: 24px; 
+} 
+ 
+ 
+/* recipes css */ 
+ 
+.recipes { 
+    .recipes-top { 
+        text-align: center; 
+    } 
+ 
+    .recipes-btn { 
+        padding: 4px 8px; 
+        font-size: 14px; 
+        text-transform: uppercase; 
+        background-color: #EE6352; 
+        margin-bottom: 8px; 
+    } 
+ 
+    h3 { 
+        font-family: "Montserrat", sans-serif; 
+        font-size: 40px; 
+        font-weight: 700; 
+        line-height: 40px; 
+        letter-spacing: 0.01em; 
+        text-align: center; 
+        text-transform: uppercase; 
+ 
+    } 
+ 
+    p { 
+        margin-bottom: 40px; 
+        font-weight: 300; 
+        line-height: 22.4px; 
+        letter-spacing: 0.01em; 
+        /* text-align: center; */ 
+        margin: auto; 
+ 
+    } 
+ 
+    .recipes-buttons { 
+        margin-bottom: 40px; 
+    } 
+ 
+    .recipes-cards { 
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+
+        .card { 
+            width: 427px; 
+            border-radius: 24px; 
+            border: 1px solid #262522; 
+ 
+            .card-img { 
+                img {
+                    width: 100%;
+                }
+            } 
+ 
+            .card-text { 
+                background: #FFFBF2; 
+                border-bottom-right-radius: 24px; 
+                border-bottom-left-radius: 24px; 
+                padding: 24px 24px 16px; 
+ 
+                h4 { 
+                    font-family: "Montserrat" , sans-serif; 
+                    font-size: 24px; 
+                    font-weight: 700; 
+                    line-height: 28.8px; 
+                    margin-bottom: 12px; 
+ 
+                } 
+ 
+                p { 
+                    width: 379px; 
+                    margin-bottom: 36px; 
+                } 
+ 
+                div { 
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: space-between; 
+ 
+                    p { 
+                        margin-bottom: 0; 
+                        font-size: 12px; 
+                        font-weight: 500; 
+                        line-height: 14.4px; 
+                        letter-spacing: 0.01em; 
+                        width: auto; 
+                        margin: 0; 
+                    } 
+ 
+                    button { 
+                        font-size: 14px; 
+                        font-weight: 500; 
+                        line-height: 14px; 
+                        padding: 12px 24px; 
+                        text-transform: uppercase; 
+                        background-color: transparent; 
+                        border: 1px solid #26252229; 
+                        color: black; 
+                    } 
+                } 
+            } 
+ 
+        } 
+    } 
+}
+
+
+
+/* hero */
+
+
+
+ /* .hero{
+
+
+    padding: 120px 0;
+    text-align: center;
+    background-image: url(../img/hero.png);
+    border-radius: 32px;
+
+   
+} */
+
+
+.hero img {
+    margin-top: -120px; /* Сдвигаем изображение вверх на 60px */
+    width: 1510px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+.hero {
+    
+    
+   
+        position: relative;
+        padding: 120px 0;
+        text-align: center;
+        background-image: url('../img/hero.png'); /* Убедитесь, что путь правильный */
+        background-size: cover;
+        background-position: center;
+        /* height: 400px; Установите высоту для видимости фона */
+        min-height: 500px;
+        border-radius: 32px;
+        width: 1520px;
+        height: 577px; /* Задайте нужное значение */
+
+    
+    
+}
+
+.hero-content {
+    position: relative; /* Чтобы содержимое находилось поверх фона */
+    z-index: 1; /* Обеспечивает, чтобы содержимое было над фоном */
+    color: white; /* Например, цвет текста для контраста */
+
+  
+}
+
+/* .hero-content h1{
+   
+        font-family: Montserrat;
+        font-size: 80px;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        
+        width: 869px;
+        height: 160px;
+        gap: 0px;
+        opacity: 0px;
+        
+} */
+
+ 
+
+
+
+
+
+
+
+/* .hero {
+    padding: 120px 0;
+     margin-bottom: 390px;
+
+    
+    
+} */
+
+
+
+
+
+
+.hero {
+    position: relative;
+    padding: 120px 0;
+    text-align: center;
+    background-image: url('../img/hero.png'); /* Убедитесь, что путь правильный */
+    background-size: cover;
+    background-position: center;
+    min-height: 500px; /* Устанавливает минимальную высоту */
+    border-radius: 32px;
+    width: 1520px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(50, 50, 50, 0.5); /* Темно-серый с 50% прозрачностью */
+    border-radius: 32px; /* Сохранение скругления */
+    z-index: 1; /* Помещаем под содержимым */
+}
+
+
+
+
+.hero-content {
+    width: 869px;
+    margin: auto;
+    width: Hug (869px)px;
+height: Hug (337px)px;
+gap: 40px;
+opacity: 0px;
+
+  
+}
+
+
+.hero-content h1 {
+    margin-bottom: 10px; /* Установите нужный отступ снизу */
+}
+
+.hero-content p {
+    margin-bottom: 20px; /* Установите нужный отступ снизу */
+}
+
+.hero-btn {
+    margin-top: 20px; /* Установите нужный отступ сверху */
+}
+
+
+.hero-content h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #F0EBE1;
+
+    width: 869px;
+height: 160px;
+gap: 0px;
+opacity: 0px;
+
+   
+
+}
+
+.hero-content p {
+    color: #F0EBE1;
+   
+
+  
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    
+
+
+    width: 427px;
+height: 87px;
+gap: 0px;
+opacity: 0px;
+
+    /* width: 427px;
+    margin: auto;
+    font-family: "Roboto";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0.01em;
+    text-align: center; */
+
+
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    width: 427px;
+    margin-left: 225px;
+height: 87px;
+gap: 0px;
+opacity: 0px;
+
+    
+   
+   
+}
+
+.hero-btn {
+    background: #F29C33;
+    color: #262522; 
+    text-transform: uppercase; 
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* дз */
+
+
+
+
+
+ .button-container{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.underline-button {
+    background: none;
+    border: none;
+    font-size: 15px; 
+    color: rgba(128, 128, 128, 0.619);
+    cursor: pointer;
+    position: relative; 
+    padding: 0; 
+    gap: 16px;
+  margin-bottom: 30px;
+
+}
+
+
+
+.black {
+    color: black; 
+}
+
+.black::after {
+    background: black; 
+}
+
+
+
+.gray {
+    color: gray; 
+}
+
+.gray::after {
+    background: gray; 
+}
+
+
+
+
+
+/*menu css*/
+
+.menu{
+    background-color:#C4E5FC ;
+    padding: 40px ;
+    background-repeat: 32px;
+    margin-top: 16px;
+    display: flex;
+ justify-content: space-between;
+ margin-bottom: 16px;
+border-radius: 30px;
+ 
+
+    .menu-text{
+        width: 494px;
+        /* padding-top: 148px; */
+
+        button.menu-btn1 {
+           margin-bottom: 12px;
+           padding: 4px 8px 4px 8px;
+          border-radius: 12px;
+          background: #EE6352;
+          font-size: 14px;
+          text-transform: uppercase; 
+
+        }
+        button.menu-btn2{
+            border: 1px solid #262522;
+            background-color: transparent ;
+            color: currentColor;
+            text-transform: uppercase;
+        }
+        h3  {  
+            /* 12 */
+          margin-bottom: 12px;
+          font-size: 40px;
+          text-transform: uppercase;
+        }
+        p{
+            /* 30 */
+            margin-bottom:30px;
+            font-weight: 300;
+            line-height: 22px;
+
+        }
+    }
+
+    .menu-items{
+        width: 494px;
+
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #26252229;
+   padding: 18px 0;
+
+     /* img{} */
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
