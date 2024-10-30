@@ -624,7 +624,6 @@ opacity: 0px;
     display: flex;
  justify-content: space-between;
  margin-bottom: 16px;
-border-radius: 30px;
  
 
     .menu-text{
@@ -632,7 +631,7 @@ border-radius: 30px;
         /* padding-top: 148px; */
 
         button.menu-btn1 {
-           margin-bottom: 12px;
+           margin-bottom: 20px;
            padding: 4px 8px 4px 8px;
           border-radius: 12px;
           background: #EE6352;
@@ -647,14 +646,12 @@ border-radius: 30px;
             text-transform: uppercase;
         }
         h3  {  
-            /* 12 */
           margin-bottom: 12px;
           font-size: 40px;
           text-transform: uppercase;
         }
         p{
-            /* 30 */
-            margin-bottom:30px;
+            margin-bottom: 40px;
             font-weight: 300;
             line-height: 22px;
 
