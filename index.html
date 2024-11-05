@@ -39,7 +39,7 @@
                 </button>
             </div>
 
-            <div class="button">
+            <div class="button1">
                 <button>subscribe</button>
             </div>
         </div>
@@ -169,7 +169,7 @@ text-align: left;
 <style>
     .menu-text {
         position: relative; /* Относительное позиционирование для контейнера */
-    /* margin-bottom: 190px; */
+
 
         .menu-btn1,
     .menu-btn2,
@@ -230,7 +230,7 @@ text-align: left;
        
         
 
-     <main>
+     <!-- <main>
         <section class="recipes">
             <div class="recipes-top">
              <button class="recipes-btn">recipes</button>
@@ -260,7 +260,7 @@ text-align: left;
         </div>
     </div>
 </section>
-</main>  
+</main>   -->
 
 
 
@@ -269,45 +269,58 @@ text-align: left;
 
 
 
+<section class="recipes"> 
+    <div class="recipes-top"> 
+        <button class="recipes-btn">recuires</button> 
+        <h3>Embark on a <br> journey</h3> 
+        <p>With our diverse collection of recipes we have something to <br> satisfy every palate.</p> 
+    </div> 
+    <div class="recipes-buttons"> 
+        <button class="button">Starter</button> 
+        <button class="button">Beef</button> 
+        <button class="button">Breakfast</button> 
+        <button class="button">Chicken</button> 
+        <button class="button">Pasta</button> 
+        <button class="button">Dessert</button> 
+        <button class="button">Vegan</button> 
+    </div> 
+    <div class="recipes-cards"> 
+        <!-- Блюда будут отображаться здесь -->
+    </div> 
+</section>
+
+
+<style>
+
+.recipes-top{
+
+  h3{
+    margin-bottom: 18px;
+  }
+
+  p{
+    margin-bottom: 35px;
+  }
+
+}
+
+</style>
 
 
 
 
-<!-- <button onclick="fetchRecipes('Dinner')">Dinner</button>
-<button onclick="fetchRecipes('Breakfast')">Breakfast</button>
-<button onclick="fetchRecipes('Lunch')">Lunch</button>
-<button onclick="fetchRecipes('Snack')">Snack</button>
-<button onclick="fetchRecipes('Dessert')">Dessert</button>
-<button onclick="fetchRecipes('Side')">Side</button>
-<button onclick="fetchRecipes('Drink')">Drink</button>
 
-<div id="recipes"></div>
 
-<script>
-    async function fetchRecipes(category) {
-        const response = await fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?c=${category}`);
-        const data = await response.json();
-        displayRecipes(data.meals);
-    }
 
-    function displayRecipes(meals) {
-        const recipesDiv = document.getElementById('recipes');
-        recipesDiv.innerHTML = '';
-
-        if (meals) {
-            meals.forEach(meal => {
-                const mealDiv = document.createElement('div');
-                mealDiv.innerHTML = `<h3>${meal.strMeal}</h3><img src="${meal.strMealThumb}" alt="${meal.strMeal}"/>`;
-                recipesDiv.appendChild(mealDiv);
-            });
-        } else {
-            recipesDiv.innerHTML = 'No recipes found.';
-        }
-    }
-</script>
-
-    -->
-
-    <script src="js/home.js"></script>
+<script src="js/home.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+

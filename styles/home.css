@@ -680,3 +680,79 @@ div {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+.recipes-buttons {
+    display: flex;
+    gap: 10px; /* Промежуток между кнопками */
+    justify-content: center; /* Центрируем кнопки */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.button {
+    background-color: #F0EBE1; /* Фоновый цвет */
+    border: 1px solid gray; /* Серая рамка */
+    color: gray; /* Цвет текста */
+    padding: 10px 20px; /* Отступы внутри кнопок */
+    cursor: pointer; /* Курсор в виде указателя */
+    transition: background 0.3s, color 0.3s, border 0.3s; /* Плавный переход */
+}
+
+.button.active-button {
+    background-color: #9FDC26; /* Цвет фона при активации */
+    border: 1px solid black; /* Черная рамка при активации */
+    color: black; /* Черный цвет текста при активации */
+}
+
+.recipes-cards {
+  
+    display: inline; /* Используем grid для управления расположением */
+    grid-template-columns: repeat(auto-fill, minmax(427px, 1fr)); /* Автоматически заполняем колонки */
+    gap: 16px; /* Промежуток 16px между карточками по горизонтали и вертикали */
+    justify-content: center; /* Центрируем карточки */
+}
+
+.card {
+    border-radius: 20px;
+    width: 140px; /* Ширина карточки */
+    height: 551px; /* Высота карточки */
+    opacity: 0; /* Начальная непрозрачность */
+    transition: opacity 0.3s; /* Плавный переход для непрозрачности */
+}
+
+.card img {
+    border-radius: 20px;
+    width: 100%; /* Ширина изображения */
+    height: 70%; /* Высота изображения (можно настроить) */
+    
+}
+
+.card-text {
+    padding: 10px;
+    text-align: center; /* Центрируем текст */
+}
+
+
+
+
+
+
